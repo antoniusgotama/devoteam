@@ -48,7 +48,6 @@ Desktop.ini
 # .idea/
 
 # ML / notebook artifacts (regenerate from notebook or train CLI)
-artifacts/*.joblib
 artifacts/*.pkl
 artifacts/*.pickle
 
