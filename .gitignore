@@ -1,0 +1,58 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# uv cache (keep uv.lock in git for reproducible installs)
+.uv/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE (optional — uncomment if you do not want these in git)
+# .vscode/
+# .idea/
+
+# ML / notebook artifacts (regenerate from notebook or train CLI)
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.pickle
+
+# Local scratch
+*.log
+tmp/
+temp/

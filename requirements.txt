@@ -1,0 +1,13 @@
+pandas
+jinja2
+numpy
+matplotlib
+seaborn
+scipy
+ipython
+scikit-learn
+kneed
+xgboost
+shap
+uv
+requests
